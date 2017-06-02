@@ -1,0 +1,18 @@
+天气预报 搜索功能 f5024e37e0e2433b9c693757906c109d  https://free-api.heweather.com/v5/hourly?city=yourcity&key=yourkey
+体育比分  http://api.avatardata.cn/Nba/NomalRace?key=4ed88f1bd7d645c9a148c70fb7c73a72
+地点 IP 时间 日历
+备忘录 同步
+最近电影
+下载插件
+
+
+个人页面跳转
+顶部组件
+底部组件
+侧栏组件 换肤
+个人页面
+登录页面 注册
+
+
+网易云音乐
+机器人组件 按时间提醒 msg
