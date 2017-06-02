@@ -22,7 +22,7 @@ npm install
 
 ```
 
-##APP截图
+## APP截图
 ![](https://raw.githubusercontent.com/whelamc/whelamadmin/master/screenshot/20170602114532.png)
 ![](https://raw.githubusercontent.com/whelamc/whelamadmin/master/screenshot/20170602114829.png)
 ![](https://raw.githubusercontent.com/whelamc/whelamadmin/master/screenshot/20170602120304.png)
