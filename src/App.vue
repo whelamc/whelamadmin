@@ -84,7 +84,8 @@ ul, li {
   background-size: 100% 100%;
   background-attachment: fixed;
   width: 100%;
-
+  height: auto;
+  min-height: 100%;
 }
 
 /*skin*/
