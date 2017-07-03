@@ -40,7 +40,7 @@
                 <span @click="toggleMusic(index)">{{item.name}}</span><span @click="toggleMusic(index)">{{item.singer}}</span><i class="fa fa-times" @click="del(item.index)"></i>
              </li>
            </ul>
-         </div>
+         </div>l
          <div class="songinfo" v-if="showtype == 2"></div>
          <div class="albuminfo" v-if="showtype == 3"></div>
        </div>

@@ -122,18 +122,19 @@
 		    	<p class="title">{{nba}}</p>
 		    	<div class="detail" v-for="item in nbalist">
 		    	<p class="date">{{item.title}}</p>
-		    	<div class="match">
-		    		<ul v-for="el in item.tr">
+		    	<div v-for="el in item.tr"></div>
+		    	<div class="match" v-for="el in item.tr">
+		    		<ul >
 		    			<li><i :style="{backgroundImage:'url(' + el.player1logo + ')'}"></i><span>{{el.player1}}</span></li>
 		    			<li><span>{{el.score}}</span></li>
 		    			<li><span>{{el.player2}}</span><i :style="{backgroundImage:'url(' + el.player2logo + ')'}"></i></li>
 		    		</ul>
-		    	</div>
-		    	<div class="more" v-for="el in item.tr">
-		    		<span class="pull-left">{{el.time}}</span>
-		    		<a class="pull-right" :href="(el.link1url)"> {{el.link1text}}</a>
-		    		<span class="pull-right"> | </span>
-		    		<a class="pull-right" :href="(el.link2url)">{{el.link2text}}</a>
+			    	<div class="more">
+			    		<span class="pull-left">{{el.time}}</span>
+			    		<a class="pull-right" :href="(el.link1url)"> {{el.link1text}}</a>
+			    		<span class="pull-right"> | </span>
+			    		<a class="pull-right" :href="(el.link2url)">{{el.link2text}}</a>
+			    	</div>
 		    	</div>
 		    	</div>
 		    </div>
