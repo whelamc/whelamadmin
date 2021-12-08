@@ -1,5 +1,5 @@
-# 个人Admin(管理system)
-用vue写H5移动端管理。
+# WEB Admin
+用vue写H5响应式工具箱。
 
 ## 工具&技能
 `vue` + `vuex`+ `vue-router` + `vue-resource` 轮子
